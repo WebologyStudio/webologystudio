@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webology | Premium Web Development Services</title>
+    <!-- Google Fonts & FontAwesome for Modern Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Webology<span>Studio</span></a>
+            
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content reveal">
+            <h1>We Build Next-Gen <br><span class="gradient-text">Digital Experiences</span></h1>
+            <p>High-performance, stunningly designed websites tailored to scale your business. Let's transform your vision into clean, functional code.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="#portfolio" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Services We Provide</h2>
+                <p>Engineered to elevate your digital presence and optimize conversion rates.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Custom Web Development</h3>
+                    <p>Tailored web experiences built entirely from scratch. We write clean, optimized, semantic code using modern languages to ensure seamless functionality & flawless mobile responsiveness.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    </div>
+                    <h3>Search Engine Optimization</h3>
+                    <p>Data-driven optimization strategies engineered to maximize organic visibility and search engine rankings. We implement advanced technical SEO, structured data markup, and performance enhancements to capture high-intent traffic and steadily convert searchers into long-term clients.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>Growth Packages</h3>
+                    <p>On-demand support and continuous development infrastructure to secure and scale your digital assets. A dedicated monthly retainer guarantees your business priority engineering for proactive maintenance, regular and rapid feature deployments without the overhead of a full-time team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container contact-container reveal">
+            <div class="contact-info">
+                <h2>Let's build something <br>extraordinary.</h2>
+                <p>Have a project in mind? Drop us a message, and we'll schedule a meeting to dissect your strategy.</p>
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-envelope"></i> studio.webology@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</p>
+                </div>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+    <!-- Paste your Web3Forms Access Key below -->
+                <input type="hidden" name="access_key" value="f8c5c426-aad1-45ad-8442-8ff03d8e8463">
+                
+                <!-- Optional: Redirects user back to your site after submitting -->
+                <input type="hidden" name="from_name" value="Webology Studio">
+
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Webology Studio. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
